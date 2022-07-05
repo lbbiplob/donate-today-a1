@@ -26,9 +26,11 @@ body {
     font-size: 70px;
     margin: 0;
 }
-.header-text p {   
+.header-text p {  
+
+    
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .btn{
@@ -38,4 +40,101 @@ body {
     padding:15px 20px;
     background-color: #FF5959;
     border-radius: 10px;
+    margin-top: 20px;
 }
+
+.donate-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.title {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+.donate-taka{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.donate-amount{
+    color: #707070;
+    font-size: 40px;
+    margin-left: 20px;
+    background-color: #FAFAFA;
+    padding: 50px 30px ;
+}
+.donate-amount-color {
+    color: #FF5959;
+    font-size: 40px;
+    margin-left: 20px;
+    background-color: #FFEEEE;
+    padding: 50px 30px;
+    border: 3px solid #FF5959;
+    border-radius: 5px;
+}
+.donate-others-amount{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+}
+
+.donate-others-amount p {
+   font-size: 20px;
+   color: #B3B3B3;
+   margin: 0;
+   
+}
+
+.donate-plan-card{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    text-align: left;
+    background-color: #B3B3B3;
+    margin-left: 20px;
+    width: 25%;
+    padding: 70px 20px 40px 30px;
+    border-radius: 5px;
+}
+
+.card h2{
+    font-size: 30px;
+}
+
+.p-tag {
+    font-size: 20px;
+    color: #707070;
+}
+.card-1{
+    background-color: #4f9da61b;
+}
+.card-2{
+    background-color: #ff595919;
+}
+.card-3{
+    background-color: #1e1e1e1d;
+}
+.email-btn{
+    font-size: 25px;
+    background-color: #707070;
+}
+.input{
+    border: none;
+    /* background-color: #D9D9D9 ; */
+    /* padding: px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
