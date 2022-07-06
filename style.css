@@ -76,6 +76,22 @@ body {
     border: 3px solid #FF5959;
     border-radius: 5px;
 }
+
+.input-tk {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #DADADA;
+}
+.input-tk::placeholder {
+    color: #B3B3B3;
+    font-size: 20px;
+    text-align: center;
+
+}
 .donate-others-amount{
     text-align: center;
     width: 55%;
@@ -170,7 +186,7 @@ body {
    
 
 }
-input{
+.input{
          border: none;
         outline: none;
         width: 50%;
